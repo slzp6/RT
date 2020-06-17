@@ -28,14 +28,8 @@ plane {
   pigment { color rgb <0.8,0.6,0.4> }
 }  
 
-
-  sphere{1,1.5
-    material { 
-      texture { 
-        pigment { color Clear } 
-        finish { F_Glass1 } 
-      } 
-      interior { I_Glass1 fade_color Col_Dark_Green } 
-    }
-  }
+sphere{
+  <1.0,1.0,1.0>,1.5
+  texture { Dark_Green_Glass }
+}
         

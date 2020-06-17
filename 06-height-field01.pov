@@ -17,7 +17,7 @@ sky_sphere {
 }
 
 height_field {
-  sys "tori-bmp-bw-rev.bmp"
+  bmp "tori-bmp-bw-rev.bmp"
   smooth
   pigment {Green}
   translate <-0.5, -1.0, -0.5>

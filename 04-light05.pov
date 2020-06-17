@@ -1,26 +1,26 @@
-//  04-light05.pov
+//  04-light05.pov  
+#include "colors.inc"
 camera{ 
-  location <0.0, -20.0, 0.0> 
+  location <0.0, 0.0, -20.0> 
   look_at  <0.0, 0.0, 0.0>
 } 
 
 light_source { 
-  <0.0,-5.0,-5.0> 
+  <0.0, 7.0, 0.0> 
   color rgb <1.0, 1.0, 1.0>     
   looks_like {
     sphere{ <0,0,0>, 0.5
-      pigment { rgb <1.0, 1.0, 1.0> }
-      finish {ambient 1}
+      pigment { Green }
     }
   }
 } 
 
 sphere { 
   <0.0, 0.0 ,0.0>, 3.0  
-  pigment { rgb <1.0, 0.0, 0.0> }
+  pigment { Red }
 }       
 
 plane {
-  <0.0,0.0,1.0>, 10
-  pigment {  rgb <1.0, 1.0, 1.0> }
+  <0.0,1.0,0.0>, -3
+  pigment { White }
 }

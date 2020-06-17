@@ -5,7 +5,8 @@
               
 camera{ 
   location <0.0, 0.0, -4.0> 
-  look_at  <0.0, 0.0, 0.0>
+  look_at  <0.0, 0.0, 0.0>  
+  right x * image_width / image_height 
 } 
 light_source { 
   <5.0,5.0,-5.0> 

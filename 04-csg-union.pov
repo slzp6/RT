@@ -24,27 +24,19 @@ sky_sphere {
   S_Cloud2
 }
 plane {
-  y, -2
+  y, -3
   pigment { color rgb <0.8,0.6,0.4> }
 }  
 
 union {
-  cone{-1.5,1.5,1.5,0.1
-    material { 
-      texture { 
-        pigment { color Clear } 
-        finish { F_Glass1 } 
-      } 
-      interior { I_Glass1 fade_color Col_Dark_Green } 
-    }
+  sphere{
+    <1.0,1.0,1.0>,1.5
+    texture { Dark_Green_Glass }
   }
-  sphere{1,1.5
-    material { 
-      texture { 
-        pigment { color Clear } 
-        finish { F_Glass1 } 
-      } 
-      interior { I_Glass1 fade_color Col_Dark_Green } 
-    }
+  
+  cone{ 
+    <1.0,1.0,1.0>,0.1
+    <-1.5,-1.5,-1.5>,1
+    texture { Dark_Green_Glass }
   }
 }         

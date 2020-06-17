@@ -1,0 +1,19 @@
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left : auto ;
+  margin-right : auto ;
+}
+
+table th, table td {
+  border: solid 1px black;
+}
+
+caption {
+  font-size: 300%;
+}
+
+p {
+  text-align: center
+}
+

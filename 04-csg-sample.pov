@@ -2,7 +2,6 @@
 
 #include "colors.inc"  
 #include "skies.inc"  
-
 #include "shapes.inc"
 #include "textures.inc"
 #include "Woods.inc"
@@ -28,13 +27,14 @@ plane {
   pigment { color rgb <0.8,0.6,0.4> }
 }  
 
-union {
+union {  
+  sphere{ <1.0, 1.0, 1.0> 1.5
+    texture{Dark_Green_Glass}
+  }
   cone{
     <-1.5, -1.5,  -1.5>, 1.5  
     <1.5, 1.5, 1.5>, 0.1
-    material { M_Green_Glass }
+    texture{Dark_Green_Glass}
   }
-  sphere{ <1.0, 1.0, 1.0> 1.5
-    material { M_Green_Glass }
-  }
+ 
 }         

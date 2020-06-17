@@ -14,25 +14,28 @@ camera {
   location  <0.0, 1.0, -5.0>
   look_at   <0.0, 0.5,  0.0>
 }
-
+    
+    
 light_source {
   <150, 150, -150>
   color rgb 1.0
 }
-
+    
+    
 #declare MyObj =
   union {
-    object {
-      sphere { <0, 0, 0>, 0.5 }
+    sphere { <0, 0, 0>, 0.5 
       pigment { Blue }
       translate <0, 1, 0>
     }
-    object {
-      cone { <0, -0.5, 0>, 0.5, <0, 1, 0>, 0 }
+
+    cone { <0, -0.5, 0>, 0.5, <0, 1, 0>, 0 
       pigment { Green }
     }
   }
-
+    
+    
+    
 object { MyObj }  
 object { MyObj translate <-1.2, 0, 0> }
 object { MyObj translate < 1.2, 0, 0> }

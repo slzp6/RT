@@ -1,4 +1,4 @@
-// 05-sphere-rainbow.pov
+// 05-sphere-rainbow01.pov
 
 #include "colors.inc"  
 #include "skies.inc"  

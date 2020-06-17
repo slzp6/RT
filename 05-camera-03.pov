@@ -16,6 +16,8 @@ plane {
   y, -1.0
   pigment {checker Blue,Cyan}    
 }
+  
+  
   sphere {
      <0,0,0>, 1
      pigment { Gold }

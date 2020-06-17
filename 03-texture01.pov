@@ -4,7 +4,7 @@
 #include "shapes.inc"
 #include "skies.inc"
 
-// #include "textures.inc"
+#include "textures.inc"
 #include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
@@ -28,10 +28,7 @@ plane { <0, 1, 0>, -1
     }
 }
 
-//plane {
-//  y, -1
-//  pigment { color rgb <0.7,0.5,0.3> }
-//}                   
+                   
 
 sphere {
   <-2, 0, 0>  0.4      

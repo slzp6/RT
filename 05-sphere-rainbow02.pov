@@ -1,4 +1,4 @@
-// 05-sphere-rainbow2.pov
+// 05-sphere-rainbow02.pov
 
 #include "colors.inc"  
 #include "skies.inc"  
@@ -65,6 +65,7 @@ rainbow {
      [0.900 color rgbf <1.0, 0.2, 0.2, 0.8> transmit 0.90 ]
    }
 }
+
 
 sphere{<0.0, 0.0, 0.0> ,2.0
   texture { T_Winebottle_Glass }
