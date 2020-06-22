@@ -5,7 +5,8 @@
 
 camera{ 
   location <0.0, 7.0, -2.0> 
-  look_at  <0.0, 0.0, 0.0>
+  look_at  <0.0, 0.0, 0.0>       
+  right x * image_width / image_height
 } 
     
 light_source { 
@@ -17,7 +18,7 @@ sky_sphere {
 }
 
 height_field {
-  bmp "tori-bmp-bw-rev.bmp"
+  jpeg "tori-bmp-bw-rev.jpg"
   smooth
   pigment {Green}
   translate <-0.5, -1.0, -0.5>

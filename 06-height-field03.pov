@@ -17,7 +17,7 @@ sky_sphere {
 }
 
 height_field {
-  sys "neko.bmp"
+  jpeg "neko.jpg"
   smooth
   pigment {White}
   translate <-0.5, -1.0, -0.5>
