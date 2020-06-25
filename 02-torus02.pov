@@ -1,4 +1,4 @@
-//  01-torus02.pov
+//  02-torus02.pov
 camera{ 
   location <0.0, 3.0, -3.0> 
   look_at  <0.0, 0.0, 0.0>

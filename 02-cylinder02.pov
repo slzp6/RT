@@ -1,4 +1,4 @@
-//  01-cylinder01.pov
+//  02-cylinder01.pov
 camera{ 
   location <0.0, 0.0, -10.0> 
   look_at  <0.0, 0.0, 0.0>
