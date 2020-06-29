@@ -1,4 +1,8 @@
-// 07-animation01.pov
+// 07-animation01.pov 
+//  
+// Initial_Frame=0 Final_Frame=10
+//   
+
 
 #include "colors.inc"        
 #include "shapes.inc"    
@@ -18,5 +22,5 @@ light_source {
 cylinder {
   <0, 2.0, 0>, <0,-2.0, 0>, 0.8
   texture {T_Stone2}
-  rotate <0,0,180*clock>
+  rotate <0,180*clock,0>
 }
