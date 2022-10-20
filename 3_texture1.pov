@@ -8,7 +8,7 @@
 #include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
+#include "metals.inc"
               
 camera{ 
   location <0.0, 1.0, -4.0> 

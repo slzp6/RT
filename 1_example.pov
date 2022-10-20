@@ -1,4 +1,4 @@
-//  01_example.pov
+//  1_example.pov
   
 camera{ 
   location <0.0, 0.0, -10.0> 

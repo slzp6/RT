@@ -2,7 +2,8 @@
 
 #include "colors.inc"
 #include "skies.inc" 
-
+       
+       
 camera{ 
   location <0.0, 7.0, -0.0> 
   look_at  <0.0, 0.0, 0.0>

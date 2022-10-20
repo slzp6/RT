@@ -1,7 +1,8 @@
 // 3_sphere1.pov
 #include "colors.inc"  
 #include "skies.inc"  
-  
+                
+                
 camera{ 
   location <0.0, 2.0, -10.0> 
   look_at  <0.0, 0.0, 0.0>

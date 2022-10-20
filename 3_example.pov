@@ -4,10 +4,10 @@
 #include "skies.inc"  
 #include "shapes.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
+#include "metals.inc"
   
 camera{ 
   location <0.0, 2.0, -12.0> 
@@ -41,8 +41,7 @@ sphere { <0, 0, 0>, 0.5
 sphere { <6, 0, 0>, 0.8
   texture { T_Copper_3A }   
 }
-          
-          
+                    
           
 sphere { <0, 0, 0>, 1
   texture { Dark_Green_Glass }    

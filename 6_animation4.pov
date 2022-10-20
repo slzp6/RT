@@ -1,18 +1,20 @@
-// 07-animation4.pov
+// 6_animation4.pov
 
 #include "colors.inc"        
 #include "shapes.inc"    
 #include "stones.inc"    
 #include "glass.inc"
 #include "textures.inc"  
-
+                        
+                        
 #macro  Bounce( X )
  #if(X<1/2) (sin(pi*( X + 1/2)))
  #else      (sin(pi*(1-X + 1/2)))
  #end
 #end 
 #declare Time = clock +0.00  ;
-
+                        
+                        
 background{color White}
   
 camera {

@@ -10,8 +10,9 @@ camera{
     
 light_source { 
   <0.0,20.0,0.0> 
-  color rgb <1.0, 1.0, 1.0>
-}      
+  color rgb <1.0, 1.0, 1.0>    
+}                              
+
 sky_sphere {
   S_Cloud2
 }

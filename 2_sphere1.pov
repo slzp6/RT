@@ -1,4 +1,4 @@
-// 2_sphere1.pov
+        // 2_sphere1.pov
 
 #include "colors.inc"
   
@@ -15,5 +15,4 @@ light_source {
 sphere {
   <0, 0, 0>  0.5      
   pigment {color Green}
-}
-                               
+}              

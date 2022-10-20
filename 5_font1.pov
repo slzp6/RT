@@ -11,11 +11,13 @@ camera{
 light_source { 
   <5.0,5.0,-5.0> 
   color rgb <1.0, 1.0, 1.0>
-} 
+}                           
+
 background{color White}
 
-text{
-  ttf "Arial.ttf",         
+text{               
+  ttf "timrom.ttf",
+  // ttf "arial.ttf",         
   "ABC",       
   5,        
   0        

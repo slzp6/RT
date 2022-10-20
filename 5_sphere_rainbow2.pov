@@ -5,11 +5,12 @@
 
 #include "shapes.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "     
-
+#include "metals.inc"     
+                         
+                         
 camera{ 
   location <0.0, 0.5, -10.0> 
   look_at  <0.0, 0.0, 0.0>

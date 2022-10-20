@@ -1,7 +1,8 @@
 // 5_pattern_hexagon.pov
 #include "colors.inc"
 #include "skies.inc"  
-#include "textures.inc"
+#include "textures.inc"  
+
 
 sky_sphere {
   S_Cloud2

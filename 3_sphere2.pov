@@ -1,6 +1,7 @@
 // 3_sphere2.pov
 #include "colors.inc"  
-#include "skies.inc"  
+#include "skies.inc" 
+ 
   
 camera{ 
   location <0.0, 2.0, -10.0> 
@@ -14,7 +15,8 @@ light_source {
 
 sky_sphere {
   S_Cloud2
-}
+}            
+
 plane {
   y, -1
   pigment { color rgb <0.8,0.6,0.4> }

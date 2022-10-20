@@ -1,7 +1,9 @@
-// 2-texture4.pov
+// 2_texture4.pov
+
 #include "colors.inc"  
 #include "skies.inc"  
-#include "textures.inc"
+#include "textures.inc"        
+
               
 camera{ 
   location <0.0, 0.0, -4.0> 

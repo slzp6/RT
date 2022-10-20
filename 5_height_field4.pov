@@ -3,7 +3,8 @@
 #include "colors.inc"
 #include "skies.inc"        
 #include "textures.inc"
-
+         
+         
 camera{ 
   location <0.0, 6.0, -20.0> 
   look_at  <0.0, 0.0, 0.0>   
@@ -14,13 +15,14 @@ camera{
 light_source { 
   <5.0,5.0,-5.0> 
   color rgb <1.0, 1.0, 1.0>
-}      
+}       
+
 sky_sphere {
   S_Cloud2
 }
 
 height_field {
-  jpeg "5_opensimplex_c.jpg"
+  jpeg "5_opensimplex_a.jpg"
   // jpeg "5_opensimplex_b.jpg"
   // jpeg "5_opensimplex_c.jpg"
   smooth

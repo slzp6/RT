@@ -3,6 +3,7 @@
 #include "colors.inc"  
 #include "skies.inc"  
 #include "textures.inc"
+            
               
 camera{ 
   location <0.0, 0.0, -5.0> 

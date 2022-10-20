@@ -4,10 +4,10 @@
 #include "skies.inc"  
 #include "shapes.inc"
 #include "textures.inc"     
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
+#include "metals.inc"
 
   
 camera{ 

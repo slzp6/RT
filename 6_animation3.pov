@@ -5,8 +5,10 @@
 #include "stones.inc"    
 #include "glass.inc"
 #include "textures.inc"  
+                             
+                             
+background{color White}      
 
-background{color White}
 camera {
   angle    35
   location <3.0 , 0.0 ,-10.0>
@@ -25,10 +27,12 @@ plane { <0, 1, 0>, -1
       checker color White, color Blue
     }
 }   
+
 sphere {
   <+2, 0, 0>  0.4     
   material{M_Ruby_Glass}
 } 
+
 cylinder {
   <0, 1.0, 0>, <0,-1.0, 0>, 0.8
   pigment {color rgb<0.0, 1.0, clock> }

@@ -1,4 +1,4 @@
-// 2-sphere4.pov
+// 2_sphere4.pov
 #include "colors.inc"  
 #include "skies.inc"
 

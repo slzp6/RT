@@ -1,5 +1,7 @@
 // 05-blob01.pov
 #include "colors.inc"
+
+
 background{White}
 camera {
     location <0,0,-2>

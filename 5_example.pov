@@ -4,7 +4,7 @@
 #include "skies.inc"
 #include "shapes.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"
 #include "glass.inc"
 #include "metals.inc"
@@ -58,8 +58,9 @@ sphere {
   texture { NBwinebottle }
 }
 
-text{
-  ttf "Arial.ttf",         
+text{  
+  ttf "timrom.ttf", 
+  // ttf "arial.ttf",         
   "ABC",       
   1,        
   0         
@@ -68,7 +69,8 @@ text{
 } 
 
 text{
-  ttf "Arial.ttf",         
+  ttf "timrom.ttf", 
+  // ttf "arial.ttf",         
   "OUJ",       
   0.5,        
   0        

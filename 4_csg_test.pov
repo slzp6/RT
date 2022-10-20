@@ -1,14 +1,14 @@
-// 04-csg-merge.pov
+// 4_csg_test.pov
 
 #include "colors.inc"  
 #include "skies.inc"  
 
 #include "shapes.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
+#include "metals.inc"
   
 camera{ 
   location <0.0, 2.0, -10.0> 

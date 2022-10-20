@@ -5,20 +5,23 @@
  #include "colors.inc"  
  #include "skies.inc"
  
+ 
  #declare T1= 
  texture{
    pigment{
      density_file df3 "5_volume1.df3" interpolate 1
      color_map{[0.0 Red][1.0 White]}
    }
- }
+ }          
+ 
  camera {
    location <+0.0, 0.0, -1.50>
  }
  
  sky_sphere {
   S_Cloud2
- }
+ }          
+ 
  plane {
   y, -1.01
   pigment {checker White, Grey}
@@ -34,6 +37,6 @@
    scale 1.0000
    texture { T1 }
    translate <-0.50, -0.50, -0.50>
- 	rotate <360*clock,360*clock+90,360*clock>
+   rotate <360*clock,360*clock+90,360*clock>
  }
  	

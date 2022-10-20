@@ -4,7 +4,8 @@
 #include "shapes.inc"    
 #include "stones.inc"
 
-background{color White}
+background{color White} 
+
 camera {
   location <0, 0, -5>
   look_at <0, 0, 0>

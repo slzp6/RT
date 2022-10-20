@@ -1,5 +1,7 @@
 //  4_light4.pov
-#include "colors.inc"
+#include "colors.inc"   
+
+
 camera{ 
   location <0.0, 0.0, -20.0> 
   look_at  <0.0, 0.0, 0.0>

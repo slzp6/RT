@@ -5,11 +5,12 @@
 
 #include "shapes.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
-
+#include "metals.inc"
+              
+              
 fog {
   fog_type 1               
   distance 10

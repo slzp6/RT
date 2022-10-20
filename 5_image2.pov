@@ -4,10 +4,10 @@
 #include "shapes.inc"
 #include "skies.inc"
 #include "textures.inc"
-#include "Woods.inc"
+#include "woods.inc"
 #include "stones.inc"                                        
 #include "glass.inc"
-#include "metals.inc "
+#include "metals.inc"
               
 camera{ 
   location <0.0, 1.0, -4.0> 
@@ -33,7 +33,7 @@ plane { <0, 1, 0>, -1
 sphere {
   <0, 0, 0>  1.4     
   pigment{ 
-    image_map{ png "tori-png-bw.png" map_type 1 }
+    image_map{ png "tori_png_bw.png" map_type 1 }
   }  
   rotate <0,-90,0>
 }  
