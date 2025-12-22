@@ -1,0 +1,109 @@
+# POV‑Ray で使える可能性が高いフォント例
+
+--- 
+## Windows
+
+text {
+    ttf "NotoSansJP-Regular.ttf",
+    "Hello",
+    0.2, 0
+}
+
+Noto Sans JP Regular : NotoSansJP-Regular.ttf
+Noto Sans JP Bold    : NotoSansJP-Bold.ttf
+Noto Sans JP Medium  : NotoSansJP-Medium.ttf
+
+Noto Serif JP Regular : NotoSerifJP-Regular.otf
+Noto Serif JP Bold    : NotoSerifJP-Bold.otf
+
+Source Han Sans Regular : SourceHanSans-Regular.otf
+Source Han Sans Medium  : SourceHanSans-Medium.otf
+Source Han Sans Bold    : SourceHanSans-Bold.otf
+
+Source Han Serif Regular : SourceHanSerif-Regular.otf
+Source Han Serif Medium  : SourceHanSerif-Medium.otf
+
+IPAex Gothic : ipaexg.ttf
+IPAex Mincho : ipaexm.ttf
+
+MS Gothic  : msgothic.ttc
+MS Mincho  : msmincho.ttc
+Meiryo     : meiryo.ttc
+
+
+
+--- 
+## Linux
+
+text {
+    ttf "/usr/share/fonts/truetype/noto/NotoSansJP-Regular.ttf",
+    "Hello",
+    0.2, 0
+}
+
+/usr/share/fonts/
+/usr/share/fonts/truetype/
+/usr/share/fonts/opentype/
+/usr/local/share/fonts/
+~/.local/share/fonts/
+
+Noto Sans CJK JP Regular : NotoSansCJK-Regular.ttc
+Noto Sans CJK JP Bold    : NotoSansCJK-Bold.ttc
+Noto Serif CJK JP Regular : NotoSerifCJK-Regular.ttc
+Noto Serif CJK JP Bold    : NotoSerifCJK-Bold.ttc
+
+Noto Sans JP Regular : NotoSansJP-Regular.ttf
+Noto Sans JP Bold    : NotoSansJP-Bold.ttf
+
+Noto Serif JP Regular : NotoSerifJP-Regular.otf
+Noto Serif JP Bold    : NotoSerifJP-Bold.otf
+
+Source Han Sans Regular : SourceHanSans-Regular.otf
+Source Han Sans Medium  : SourceHanSans-Medium.otf
+Source Han Sans Bold    : SourceHanSans-Bold.otf
+
+Source Han Serif Regular : SourceHanSerif-Regular.otf
+Source Han Serif Medium  : SourceHanSerif-Medium.otf
+
+IPAex Gothic : ipaexg.ttf
+IPAex Mincho : ipaexm.ttf
+
+VL Gothic : VL-Gothic-Regular.ttf
+VL PGothic : VL-PGothic-Regular.ttf
+
+
+--- 
+## Mac
+
+text {
+    ttf "/System/Library/Fonts/HiraginoSans-W0.ttc",
+    "Hello",
+    0.2, 0
+}
+
+Hiragino Sans W0 : HiraginoSans-W0.ttc
+Hiragino Sans W1 : HiraginoSans-W1.ttc
+Hiragino Sans W2 : HiraginoSans-W2.ttc
+Hiragino Sans W3 : HiraginoSans-W3.ttc
+Hiragino Sans W4 : HiraginoSans-W4.ttc
+Hiragino Sans W5 : HiraginoSans-W5.ttc
+Hiragino Sans W6 : HiraginoSans-W6.ttc
+Hiragino Sans W7 : HiraginoSans-W7.ttc
+Hiragino Sans W8 : HiraginoSans-W8.ttc
+Hiragino Sans W9 : HiraginoSans-W9.ttc
+
+Hiragino Kaku Gothic ProN W3 : HiraKakuProN-W3.otf
+Hiragino Kaku Gothic ProN W6 : HiraKakuProN-W6.otf
+
+Hiragino Mincho ProN W3 : HiraMinProN-W3.otf
+Hiragino Mincho ProN W6 : HiraMinProN-W6.otf
+
+Hiragino Maru Gothic ProN W4 : HiraMaruProN-W4.otf
+
+Yu Gothic Medium : YuGothic-Medium.otf
+Yu Gothic Bold   : YuGothic-Bold.otf
+Yu Mincho Medium : YuMincho-Medium.otf
+Yu Mincho Demibold : YuMincho-Demibold.otf
+
+Osaka : Osaka.ttc
+
